@@ -1,18 +1,18 @@
 public class Rectangle {
 
-  private int sideOne;
-  private int sideTwo;
+  private int length;
+  private int width;
 
-  public Rectangle(int sideOne, int sideTwo) {
-    this.sideOne = sideOne;
-    this.sideTwo = sideTwo;
+  public Rectangle(int length, int width) {
+    this.length = length;
+    this.width = width;
   }
 
-  public int getSideOne() {
-    return this.sideOne;
+  public int getLength() {
+    return this.length;
   }
 
-  public int getSideTwo() {
-    return this.sideTwo;
+  public int getWidth() {
+    return this.width;
   }
 }
